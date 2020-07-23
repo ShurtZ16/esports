@@ -58,5 +58,8 @@ footer{
 	
 }
 
-
+.header { background:yellow;
+		display:inline-block; 
+		border:solid 2px green;
+}
 
