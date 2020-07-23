@@ -1,4 +1,7 @@
-body{background:white
+body{background: #FFA17F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -24,24 +27,23 @@ a{
 
 
 .caja {
-	font-family:helvetica;
-	font-weight:bold;
-	position:fixed;
-	right:; 
-	left:;
-	text-shadow:0.4px 0.4px 0.4px #000;
-	background:#75D238;
-	color:#0C958D;
-	float:left;
-}
+		background: #360033;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		display:inline-block; 
+		border:solid 2px green;
+		 text-shadow: 30px 15px rgba(255, 192, 72,1.0);
+	}
 
 .articulo1{
-
-	font-family:helvetica;
-	font-weight:bold;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+   	color: white;
+   	font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+	
 	right:100px; 
 	left:300px;
-	text-shadow:0.4px 0.4px 0.4px #000;
+	
 	background:#22D0C6;
 }
 
